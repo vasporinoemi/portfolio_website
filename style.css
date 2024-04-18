@@ -1120,12 +1120,12 @@ textarea {
   }
 
   .skills {
+    width: 45rem;
     margin-top: 40rem;
   }
 
   .skills .section-heading {
     font-size: 4rem;
-    width: 30rem;
   }
 
   .skills .section-bg-heading {
@@ -1134,13 +1134,11 @@ textarea {
 
   .skills-cards {
     width: 40rem;
-    margin-left: 1rem;
   }
 
   .skills-card {
     width: 40rem;
-    padding: 0 1rem;
-    margin-right: 0;
+    padding: 0 0rem;
   }
 
   .projects {
