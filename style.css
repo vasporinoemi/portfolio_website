@@ -873,7 +873,8 @@ textarea {
   }
 
   .landing .section-bg-heading {
-    margin-bottom: 14rem;
+    margin-bottom: -4rem;
+    font-size: 15rem;
   }
 
   .skills .section-border {
@@ -882,6 +883,10 @@ textarea {
 
   .projects .section-bg-heading {
     margin-bottom: -8rem;
+  }
+
+  .contact {
+    margin-bottom: 10rem;
   }
 
   .contact-content {
@@ -923,7 +928,7 @@ textarea {
   }
 
   .landing .section-bg-heading {
-    margin-bottom: 25rem;
+    margin-bottom: 20rem;
   }
 
   .skills {
@@ -974,16 +979,17 @@ textarea {
 
   .landing .section-bg-heading {
     width: 50rem;
-    margin-bottom: -14rem;
+    margin-bottom: -40rem;
     line-height: 15rem;
   }
 
   .developer-img {
     margin-bottom: 10rem;
+    margin-top: 70%;
   }
 
   .skills {
-    margin-top: 10rem;
+    margin-top: 40rem;
   }
 
   .skills-cards {
@@ -1009,6 +1015,10 @@ textarea {
     margin-bottom: -8rem;
   }
 
+  .contact {
+    margin-bottom: 30rem;
+  }
+
   .contact-content {
     width: 70rem;
     flex-direction: column-reverse;
@@ -1017,9 +1027,9 @@ textarea {
   .contact-left {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 0rem;
     justify-content: space-evenly;
     padding-left: 5rem;
+    height: 30rem;
   }
 
   .contact-left div {
@@ -1028,6 +1038,7 @@ textarea {
 
   .contact-right {
     margin-bottom: 10rem;
+    margin-top: 40rem;
   }
 
   .input-groups input {
@@ -1043,27 +1054,52 @@ textarea {
   }
 
   .footer {
-    height: 12rem;
+    height: 10rem;
   }
 }
 
-@media (max-width: 500px) {
+@media screen and (min-width: 300px) and (max-width: 500px) {
   .navigation {
     width: 100%;
     right: -100rem;
     justify-content: center;
   }
 
+  .dev-img-wrapper {
+    width: 30rem;
+    height: 30rem;
+    margin-right: 0;
+    margin-top: 30%;
+  }
+
+  .name {
+    font-size: 5rem;
+  }
+
+  .prof,
+  .greeting,
+  .about,
+  .social-media-cv,
+  .developer-info {
+    width: 30rem;
+  }
+
   .section-bg-heading {
-    font-size: 12rem;
+    font-size: 7rem;
+  }
+
+  .landing {
+    width: 100%;
   }
 
   .landing .section-bg-heading {
-    margin-bottom: -18rem;
+    width: 20rem;
+    line-height: 6rem;
+    margin-bottom: -33rem;
   }
 
   .banner {
-    width: 50rem;
+    width: 80%;
     margin-left: 2rem;
     top: 80%;
   }
@@ -1074,12 +1110,21 @@ textarea {
     margin-bottom: 30rem;
   }
 
+  .cv button {
+    width: 13rem;
+  }
+
   .section-heading {
     text-align: center;
   }
 
   .skills {
-    margin-top: 20rem;
+    margin-top: 30rem;
+  }
+
+  .skills .section-heading {
+    font-size: 4rem;
+    width: 30rem;
   }
 
   .skills .section-bg-heading {
@@ -1087,12 +1132,14 @@ textarea {
   }
 
   .skills-cards {
-    width: 45rem;
+    width: 40rem;
+    margin-left: 1rem;
   }
 
   .skills-card {
-    width: 45rem;
+    width: 40rem;
     padding: 0 1rem;
+    margin-right: 0;
   }
 
   .projects {
@@ -1100,7 +1147,15 @@ textarea {
   }
 
   .projects-cards {
-    width: 50rem;
+    width: 40rem;
+    align-items: center;
+    text-align: center;
+  }
+
+  .project-card {
+    align-items: center;
+    text-align: center;
+    margin-left: 0.5rem;
   }
 
   .projects .section-bg-heading {
@@ -1108,7 +1163,12 @@ textarea {
   }
 
   .contact-content {
-    width: 50rem;
+    width: 45rem;
+  }
+
+  .contact-left {
+    padding-left: 1rem;
+    width: 40rem;
   }
 
   .contact .section-bg-heading {
@@ -1120,7 +1180,7 @@ textarea {
   }
 
   .input-groups input {
-    width: 40rem;
+    width: 30rem;
   }
 
   .icons {
