@@ -1070,6 +1070,7 @@ textarea {
     height: 30rem;
     margin-right: 0;
     margin-top: 30%;
+    padding-left: 3.5rem;
   }
 
   .name {
@@ -1093,7 +1094,9 @@ textarea {
   }
 
   .landing .section-bg-heading {
-    display: none;
+    font-size: 10rem;
+    line-height: 6rem;
+    width: 60%;
   }
 
   .banner {
@@ -1117,7 +1120,7 @@ textarea {
   }
 
   .skills {
-    margin-top: 30rem;
+    margin-top: 40rem;
   }
 
   .skills .section-heading {
