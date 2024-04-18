@@ -1093,9 +1093,7 @@ textarea {
   }
 
   .landing .section-bg-heading {
-    width: 20rem;
-    line-height: 6rem;
-    margin-bottom: -33rem;
+    display: none;
   }
 
   .banner {
