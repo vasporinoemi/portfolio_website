@@ -10,6 +10,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 /* End of Default sytles */
 
@@ -42,12 +43,22 @@ html {
   transition: transform 0.3s;
 }
 
-.change .line-1 {
+/* .change */
+.open .line-1 {
   transform: rotateZ(45deg) translate(0.7rem, -0.1rem);
 }
+/*lemásolva, ez eredetileg nem volt*/
+.close .line-1 {
+  transform: rotateZ(0deg) translate(0.7rem, -0.1rem);
+}
 
-.change .line-2 {
+/*.change  */
+.open .line-2 {
   transform: rotateZ(-45deg) translate(0.7rem, -0.1rem);
+}
+/*lemásolva, ez eredetileg nem volt*/
+.close .line-2 {
+  transform: rotateZ(0deg) translate(0.7rem, -0.1rem);
 }
 
 .navigation {
@@ -66,10 +77,17 @@ html {
   z-index: 150;
 }
 
-.change .navigation {
+/* .change */
+.open .navigation {
   top: 0;
   right: 0;
   transform: rotateZ(0);
+}
+
+.close .navigation {
+  top: -8rem;
+  right: -63rem;
+  transform: rotateZ(-15deg);
 }
 
 .nav-items {
@@ -79,9 +97,16 @@ html {
   visibility: hidden;
 }
 
-.change .nav-items {
+/*.change  */
+.open .nav-items {
   opacity: 1;
   visibility: visible;
+  transition: all 0.5s 0.7s;
+}
+
+.close .nav-items {
+  opacity: 0;
+  visibility: hidden;
   transition: all 0.5s 0.7s;
 }
 
@@ -91,9 +116,16 @@ html {
   height: 30rem;
 }
 
-.change .navigation .section-border {
+/*.change */
+.open .navigation .section-border {
   opacity: 1;
   visibility: visible;
+  transition: all 0.5s 0.7s;
+}
+
+.close .navigation .section-border {
+  opacity: 0;
+  visibility: hidden;
   transition: all 0.5s 0.7s;
 }
 
