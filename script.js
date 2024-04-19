@@ -18,7 +18,6 @@ menuIcon.addEventListener("click", () => {
 
 container.addEventListener("click", (event) => {
   if (
-    /* !container.classList.contains("close") && */
     container.classList.contains("open") &&
     !navigation.contains(event.target) &&
     !menuIcon.contains(event.target)
