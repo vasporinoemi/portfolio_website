@@ -408,7 +408,6 @@ html {
   color: white;
   margin-left: 1rem;
   text-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.3);
-  cursor: pointer;
   rotate: 45deg;
 }
 
@@ -599,18 +598,20 @@ html {
   flex-direction: column;
   align-items: center;
   margin-top: 25rem;
+  margin-bottom: 15rem;
 }
 
 .contact .section-border {
   position: absolute;
   left: 20rem;
-  top: 25%;
+  top: 17%;
+  margin-top: 8%;
 }
 
 .contact-content {
   width: 120rem;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin-top: 2rem;
@@ -905,7 +906,7 @@ textarea {
   }
 
   .contact {
-    margin-bottom: 10rem;
+    margin-bottom: 30rem;
   }
 
   .contact-content {
@@ -917,7 +918,7 @@ textarea {
   }
 
   .contact .section-border {
-    height: 50%;
+    top: 20%;
   }
 
   .contact .section-bg-heading {
@@ -1004,7 +1005,7 @@ textarea {
 
   .developer-img {
     margin-bottom: 10rem;
-    margin-top: 70%;
+    margin-top: 80%;
   }
 
   .skills {
@@ -1035,7 +1036,7 @@ textarea {
   }
 
   .contact {
-    margin-bottom: 30rem;
+    margin-bottom: 50rem;
   }
 
   .contact-content {
@@ -1084,6 +1085,11 @@ textarea {
     justify-content: center;
   }
 
+  .banner {
+    align-items: center;
+    text-align: center;
+  }
+
   .dev-img-wrapper {
     width: 30rem;
     height: 30rem;
@@ -1092,8 +1098,13 @@ textarea {
     padding-left: 3.5rem;
   }
 
+  .developer-info {
+    margin-right: 0;
+  }
+
   .name {
-    font-size: 5rem;
+    font-size: 4rem;
+    width: 30rem;
   }
 
   .prof,
@@ -1140,7 +1151,9 @@ textarea {
 
   .skills {
     width: 45rem;
-    margin-top: 40rem;
+    margin-top: 80%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .skills .section-heading {
@@ -1153,11 +1166,13 @@ textarea {
 
   .skills-cards {
     width: 40rem;
+    margin-left: 0;
   }
 
   .skills-card {
     width: 40rem;
     padding: 0 0rem;
+    margin-right: 0;
   }
 
   .projects {
@@ -1180,8 +1195,13 @@ textarea {
     margin-bottom: -2rem;
   }
 
+  .contact {
+    margin-bottom: 70rem;
+  }
+
   .contact-content {
     width: 45rem;
+    top: 50%;
   }
 
   .contact-left {
